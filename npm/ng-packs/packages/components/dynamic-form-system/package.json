@@ -1,0 +1,20 @@
+{
+  "name": "@abp/ng.dynamic-form-system",
+  "version": "10.2.0",
+  "homepage": "https://abp.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abpframework/abp.git"
+  },
+  "peerDependencies": {
+    "@abp/ng.core": ">=10.2.0",
+    "@abp/ng.components": ">=10.2.0",
+    "@abp/ng.theme.shared": ">=10.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>false</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Core" Version="10.2.0-rc.2" />
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="10.2.0-rc.2" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="10.2.0-rc.2" />
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="10.2.0-rc.2" />
+    <PackageReference Include="Volo.Abp.Localization" Version="10.2.0-rc.2" />
+    <PackageReference Include="Volo.Abp.Ddd.Domain" Version="10.2.0-rc.2" />
+  </ItemGroup>
+
+</Project>
